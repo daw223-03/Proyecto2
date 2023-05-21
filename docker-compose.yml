@@ -3,7 +3,7 @@ version: '3.4'
 services:
   decoappBD:
     container_name: decoBD
-    image: daw22303/sqlserver:v1
+    image: daw22303/sqlserver:v2
     ports:
     - 8002:1433
     environment:
@@ -12,7 +12,7 @@ services:
 
   decoapp4:
     container_name: decoApp
-    image: daw22303/decoapp4:v1
+    image: daw22303/decoapp4:v2
     ports:
     - 8001:80
     depends_on:
