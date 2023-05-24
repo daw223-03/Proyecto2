@@ -19,5 +19,7 @@ De esta forma nos descargariamos unicamente un docker-compose.yml, que lleva las
 # Funcionamiento programa
 ```python
 Para entrar http://85.208.20.125:8001
+Antes tendremos que encender los contenedores desde el servidor:
+ - docker start decoApp decoBD
 - En la memoria del proyecto estan las instrucciones y explicaciones.
  ``` 
